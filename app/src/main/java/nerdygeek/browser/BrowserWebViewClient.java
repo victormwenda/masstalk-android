@@ -49,6 +49,7 @@ public class BrowserWebViewClient extends WebViewClient {
     public boolean shouldOverrideUrlLoading(WebView view, String url) {
         getMainActivity().getWebPage().getTitle();
         getMainActivity().getWebPage().loadUrl(url);
+        getMainActivity().interceptRequest(view);
         return super.shouldOverrideUrlLoading(view, url);
     }
 }
