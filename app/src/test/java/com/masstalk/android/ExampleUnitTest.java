@@ -1,4 +1,4 @@
-package nerdygeek.browser;
+package com.masstalk.android;
 
 import org.junit.Test;
 

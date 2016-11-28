@@ -1,4 +1,4 @@
-package nerdygeek.browser;
+package com.masstalk.android;
 
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;

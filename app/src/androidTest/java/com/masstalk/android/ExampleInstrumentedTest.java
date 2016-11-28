@@ -1,4 +1,4 @@
-package nerdygeek.browser;
+package com.masstalk.android;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

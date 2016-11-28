@@ -1,4 +1,4 @@
-package nerdygeek.browser;
+package com.masstalk.android;
 
 import android.content.Intent;
 import android.os.Build;
