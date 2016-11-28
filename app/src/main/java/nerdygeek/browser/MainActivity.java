@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
 
         interceptRequest(getWebPage());
         updateLoadingProgress(0);
-        getWebPage().loadUrl("http://www.york.ac.uk/teaching/cws/wws/webpage1.html");
+        getWebPage().loadUrl("http://sema.comhpoafrica.com");
     }
 
     public void hideBottomBar() {
