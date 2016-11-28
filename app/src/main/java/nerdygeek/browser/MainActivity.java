@@ -3,7 +3,6 @@ package nerdygeek.browser;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Debug;
 import android.provider.Settings;
 import android.support.annotation.Nullable;
 import android.support.v4.widget.ContentLoadingProgressBar;
@@ -44,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Debug.waitForDebugger();
+
         initViews();
         initWebView();
     }
