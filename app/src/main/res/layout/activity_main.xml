@@ -3,5 +3,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:id="@+id/activity_main_clpb_progress"
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
 
+    <WebView
+        android:id="@+id/activity_main_wv_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/activity_main_clpb_progress" />
+
+    <RelativeLayout
+        android:id="@+id/activity_main_ll_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/activity_main_aiv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_arrow_back" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/activity_main_aiv_forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_arrow_forward" />
+    </RelativeLayout>
 </RelativeLayout>
